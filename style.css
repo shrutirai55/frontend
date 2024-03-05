@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+#circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+
+}
+#page1{
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+
+#nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+}
+#heading h2{
+    font-size: 8vw;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: .7;
+    margin-left: 40px;
+
+}
+#heading{
+    margin-top: 90px;
+    overflow: hidden;
+}
+#heading #product{
+    overflow: hidden;
+}
+#heading #design{
+    margin-left: 130px;
+    overflow: hidden;
+
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.blocktext h2{
+    margin-right: 30px;
+    padding-left: 100px;
+}
+#chhotiheading{
+    margin-top:100px;
+    padding-right:50px;
+}
+#chhotiheading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top:.5vw ;
+
+}
+#page1footer{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+#page1footer a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#iconset{
+    display: flex;
+    gap: 5px;
+    
+}
+#page1footer .circle{
+    border-radius: 50%;
+    background-color:white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+#page2{
+    padding-top: 150px;
+    padding-right: 10vw;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.photo{
+    width:25vw;
+    height: 20vw;
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 3vw 3vw;
+    padding-right: 0;
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 5vw;
+    opacity: .7;
+}
+.elemlast{
+    border-bottom: 1px solid white;
+}
+.elem img{
+    position: absolute;
+    z-index: 999;
+    display:none ;
+}
+
+#page3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 10vw 5vw;
+    color: white;
+    gap: 50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+}
+#page3 img{
+    width:15vw;
+    color: white;
+}
+#page3 p{
+    margin-bottom: 3vw;
+}
+#page3 a{
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    color: white;
+    padding: 12px 22px;
+    font-size: 12px;
+}
